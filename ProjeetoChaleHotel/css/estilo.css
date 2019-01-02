@@ -130,4 +130,45 @@ ul#navegacao a:hover {
 #rodape {
     clear: both;
     text-align: center;
+    padding: 16px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
+
+/*formatação de texto*/
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+P {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Formatando area de lista lateral*/
+#beneficios li {
+    border-bottom: 1px solid #fff;
+    padding: 8px;
+    height: 6em;
+}
+#beneficios li a img {
+    float: left;
+    margin-right: 8px;
+}
+#beneficios li a h3 {
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat right center;
+}
+#beneficios li a p {
+    font-size: 0.8em;
+    color: #000;
+}
+
+#beneficios li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
 }
