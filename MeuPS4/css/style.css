@@ -1,0 +1,50 @@
+/*Header*/
+a.nav-link.text-dark {
+    padding: 0;
+    font-size: 11px;
+    height: 15px;
+}
+
+.texto-navbar {
+    text-transform: uppercase;
+}
+.navbar-background {
+    background-color: black;
+}
+
+.item-nav {
+    font-weight: 100%;
+}
+.item-nav:hover {
+    background: #38a6c1;
+}
+
+a.nav-link.texto-navbar.text-light {
+    margin: 0;
+    line-height: 106px;
+    padding: 0 15px;
+}
+
+/*Capa*/
+#home {
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.thumb-principal {
+    background: url(../img/capa-principal.jpg) no-repeat;
+    height: 462px;
+}
+
+.thumb-2, .thumb-3 {
+    height: 216px;
+}
+
+.thumb-2 {
+    background: url(../img/capa2.jpg) no-repeat;
+    margin-bottom: 30px;
+}
+
+.thumb-3 {
+    background: url(../img/capa3.jpg) no-repeat;
+}
